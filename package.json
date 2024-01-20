@@ -1,5 +1,5 @@
 {
-  "name": "next-portfolio",
+  "name": "social-application",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,7 +13,7 @@
     "@tsparticles/engine": "^3.0.3",
     "@tsparticles/react": "^3.0.0",
     "framer-motion": "^10.16.4",
-    "next": "13.5.4",
+    "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^4.11.0",
