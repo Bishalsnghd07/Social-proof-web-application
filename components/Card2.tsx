@@ -56,7 +56,7 @@ const Card2 = () => {
             />
             <div className='flex flex-col items-start justify-start whitespace-nowrap pl-2'>
             <h1 className=' text-white font-bold'>Irene Roberts</h1>
-            <h1 className=' text-primary-soft-pink font-normal cursor-pointer group'>
+            <h1 className=' text-primary-soft-pink font-normal cursor-pointer group z-10'>
               Verified Buyer
               <span className="hidden md:block left-0 bottom-0 h-1 w-0 bg-gradient-to-r from-orange-500 via-white to-green-500 transition-all ease-in-out duration-500 group-hover:w-full"></span>
               </h1>
@@ -78,7 +78,7 @@ const Card2 = () => {
             />
             <div className='flex flex-col items-start justify-start whitespace-nowrap pl-2'>
             <h1 className=' text-white font-bold'>Anne Wallace</h1>
-            <h1 className=' text-primary-soft-pink font-normal cursor-pointer group'>
+            <h1 className=' text-primary-soft-pink font-normal cursor-pointer group z-10'>
               Verified Buyer
               <span className="hidden md:block left-0 bottom-0 h-1 w-0 bg-gradient-to-r from-orange-500 via-white to-green-500 transition-all ease-in-out duration-500 group-hover:w-full"></span>
               </h1>

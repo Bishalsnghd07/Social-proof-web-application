@@ -9,4 +9,5 @@ export type ApiResponse =
     };
 
 export type IconVariant =
-  | 'star';
+  | 'star'
+  | 'top';
