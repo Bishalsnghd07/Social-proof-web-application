@@ -37,7 +37,7 @@ const Card2 = () => {
             <h1 className=' text-primary-soft-pink font-normal'>Verified Buyer</h1>
             </div>
             </div>
-            <div className="flex items-center justify-center mx-8 my-4 text-white font-medium text-[14px]">"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"</div>
+            <div className="flex items-center justify-center mx-8 my-4 text-white font-medium text-[14px]">&quot;We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!&quot;</div>
         </div>
         </div>
         <div className='lg:pt-[1.8rem]'>
@@ -56,7 +56,7 @@ const Card2 = () => {
             <h1 className=' text-primary-soft-pink font-normal'>Verified Buyer</h1>
             </div>
             </div>
-            <div className="flex items-center justify-center mx-8 my-4 text-white font-medium text-[14px]">"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</div>
+            <div className="flex items-center justify-center mx-8 my-4 text-white font-medium text-[14px]">&quot;Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery.&quot;</div>
         </div>
         </div>
         <div className='lg:pt-[2.6rem]'>
@@ -75,7 +75,7 @@ const Card2 = () => {
             <h1 className=' text-primary-soft-pink font-normal'>Verified Buyer</h1>
             </div>
             </div>
-            <div className="flex items-center justify-center mx-8 my-4 text-white font-medium text-[14px]">"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"</div>
+            <div className="flex items-center justify-center mx-8 my-4 text-white font-medium text-[14px]">&quot;Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!&quot;</div>
         </div>
         </div>
       </motion.div>
