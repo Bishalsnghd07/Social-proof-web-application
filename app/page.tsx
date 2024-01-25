@@ -22,8 +22,8 @@ export default function Home() {
     },
   }
   return (
-    <><main className="grid grid-cols-1 lg:grid-cols-2 h-[56vh] w-[100vw] bg-white">
-        <div className="pt-[2.6rem] lg:pt-[6rem] pl-4 pr-4 lg:pl-[8rem] lg:pr-[6rem] text-center lg:text-left lg:max-w-[35rem]"> 
+    <><main className="grid grid-cols-1 lg:grid-cols-2 min-h-screen bg-white">
+        <div className="pt-20 lg:pt-24 pl-4 pr-4 lg:pl-32 lg:pr-24 text-center lg:text-left lg:max-w-[35rem]"> 
         <Image
           src="/assets/bg-pattern-top-desktop.svg"
           alt="top background"
@@ -33,10 +33,10 @@ export default function Home() {
         />
       <motion.div className="text-primary-very-dark-magenta text-4xl font-bold" variants={textVariants} initial="initial" animate="animate">
         10,000+ of our users love our products
-      <span className="flex flex-col flex-wrap pt-[1rem] text-sm text-neutral-dark-grayish-magenta">We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</span>
+      <span className="flex flex-col flex-wrap pt-4 text-sm text-neutral-dark-grayish-magenta">We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</span>
       </motion.div>
       </div>
-      <motion.div className="flex flex-wrap items-center justify-center p-6 lg:pt-[5rem]" variants={textVariants} initial="initial" animate="animate">
+      <motion.div className="flex flex-wrap items-center justify-center p-6 lg:pt-20" variants={textVariants} initial="initial" animate="animate">
         <Card1 />
       </motion.div>
       <Image
@@ -46,8 +46,8 @@ export default function Home() {
           height={100}
           className="absolute bottom-0 w-[74%] h-[78%] right-0 hidden xl:block"
         />
-    </main>
       <Card2 />
+    </main>
     </>
   );
 }
