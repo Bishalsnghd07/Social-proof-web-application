@@ -26,20 +26,18 @@ const Card2 = () => {
             <div className='grid grid-cols-2 pl-[2rem] pt-[1.5rem] w-[8rem]'>
             <Image
               src="/assets/image-colton.jpg"
-              alt='Colton image'
+              alt=''
               width={40}
               height={40}
               // layout='fill'
               className='rounded-full'
             />
             <div className='flex flex-col items-start justify-start whitespace-nowrap pl-2'>
-            <h1 className='text-white font-bold'>Colton Smith
-            </h1>
-            <span className=' text-primary-soft-pink font-normal group cursor-pointer'>Verified Buyer
-            </span>
+            <h2 className='text-white font-bold'>Colton Smith</h2>
+            <h3 className=' text-primary-soft-pink font-normal group cursor-pointer'>Verified Buyer</h3>
             </div>
             </div>
-            <div className="flex items-center justify-center mx-8 my-4 text-white font-medium text-[14px]">&quot;We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!&quot;</div>
+            <p className="flex items-center justify-center mx-8 my-4 text-white font-medium text-[14px]">&quot;We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!&quot;</p>
         </div>
         </div>
         <div className='lg:pt-[1.8rem]'>
@@ -47,21 +45,21 @@ const Card2 = () => {
         <div className='grid grid-cols-2 pl-[2rem] pt-[1.5rem] w-[8rem]'>
             <Image
               src="/assets/image-irene.jpg"
-              alt='Irene image'
+              alt=''
               width={40}
               height={40}
               // layout='fill'
               className='rounded-full'
             />
             <div className='flex flex-col items-start justify-start whitespace-nowrap pl-2'>
-            <h1 className=' text-white font-bold'>Irene Roberts</h1>
-            <span className=' text-primary-soft-pink font-normal cursor-pointer group z-10'>
+            <h2 className=' text-white font-bold'>Irene Roberts</h2>
+            <h3 className=' text-primary-soft-pink font-normal cursor-pointer group z-10'>
               Verified Buyer
               {/* <span className="hidden md:block left-0 bottom-0 h-1 w-0 bg-gradient-to-r from-orange-500 via-white to-green-500 transition-all ease-in-out duration-500 group-hover:w-full"></span> */}
-              </span>
+              </h3>
             </div>
             </div>
-            <div className="flex items-center justify-center mx-8 my-4 text-white font-medium text-[14px]">&quot;Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery.&quot;</div>
+            <p className="flex items-center justify-center mx-8 my-4 text-white font-medium text-[14px]">&quot;Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery.&quot;</p>
         </div>
         </div>
         <div className='lg:pt-[2.6rem]'>
@@ -69,21 +67,21 @@ const Card2 = () => {
         <div className='grid grid-cols-2 pl-[2rem] pt-[1.5rem] w-[8rem]'>
             <Image
               src="/assets/image-anne.jpg"
-              alt='Anne image'
+              alt=''
               width={40}
               height={40}
               // layout='fill'
               className='rounded-full'
             />
             <div className='flex flex-col items-start justify-start whitespace-nowrap pl-2'>
-            <h1 className=' text-white font-bold'>Anne Wallace</h1>
-            <span className=' text-primary-soft-pink font-normal cursor-pointer group z-10'>
+            <h2 className=' text-white font-bold'>Anne Wallace</h2>
+            <h3 className=' text-primary-soft-pink font-normal cursor-pointer group z-10'>
               Verified Buyer
               {/* <span className="hidden md:block left-0 bottom-0 h-1 w-0 bg-gradient-to-r from-orange-500 via-white to-green-500 transition-all ease-in-out duration-500 group-hover:w-full"></span> */}
-              </span>
+              </h3>
             </div>
             </div>
-            <div className="flex items-center justify-center mx-8 my-4 text-white font-medium text-[14px]">&quot;Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!&quot;</div>
+            <p className="flex items-center justify-center mx-8 my-4 text-white font-medium text-[14px]">&quot;Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!&quot;</p>
         </div>
         </div>
       </motion.div>

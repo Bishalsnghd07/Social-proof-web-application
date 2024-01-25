@@ -26,10 +26,11 @@ export default function Home() {
         <div className="pt-20 lg:pt-24 pl-4 pr-4 lg:pl-32 lg:pr-24 text-center lg:text-left lg:max-w-[35rem]"> 
         <Image
           src="/assets/bg-pattern-top-desktop.svg"
-          alt="top background"
+          alt=""
           width={100}
           height={100}
           className="absolute top-0 w-[100%] h-[32%] md:w-[36%] md:h-[50%] left-0"
+          aria-hidden="true"
         />
       <motion.div className="text-primary-very-dark-magenta text-4xl font-bold" variants={textVariants} initial="initial" animate="animate">
         10,000+ of our users love our products
@@ -41,10 +42,11 @@ export default function Home() {
       </motion.div>
       <Image
           src="/assets/bg-pattern-bottom-desktop.svg"
-          alt="bottom background"
+          alt=""
           width={100}
           height={100}
           className="absolute bottom-0 w-[74%] h-[78%] right-0 hidden xl:block"
+          aria-hidden="true"
         />
       <Card2 />
     </main>
