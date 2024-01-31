@@ -3,9 +3,9 @@ import Icon from './Icon/icon'
 
 const Ratings = () => {
   return (
-    <div className='pl-5 pr-5 pt-5 lg:pt-0'>
+    <div className='pl-5 pr-5 lg:pr-0 pt-5 lg:pt-16'>
     <ul>
-      <li className='lg:pt-16'>
+      <li>
     <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-3 gap-2 lg:gap-4 justify-center items-center lg:max-w-[22rem] rounded-lg'>
     <div className='flex flex-wrap gap-2'>
           <Icon icon="star" 
@@ -31,7 +31,7 @@ const Ratings = () => {
           <Icon icon="star" aria-hidden="true" />
           <Icon icon="star" aria-hidden="true" />
     </div>
-    <p className='text-primary-very-dark-magenta text-sm font-bold text-center'>Rated 5 stars in reviews</p>
+    <p className='text-primary-very-dark-magenta text-sm font-bold text-center'>Rated 5 stars in Report Guru</p>
     </div>
         </li>
       </ul>
@@ -48,7 +48,7 @@ const Ratings = () => {
           <Icon icon="star" aria-hidden="true" />
           <Icon icon="star" aria-hidden="true" />
     </div>
-    <p className='text-primary-very-dark-magenta text-sm font-bold text-center'>Rated 5 stars in reviews</p>
+    <p className='text-primary-very-dark-magenta text-sm font-bold text-center'>Rated 5 stars in BestTech</p>
     </div>
         </li>
       </ul>
