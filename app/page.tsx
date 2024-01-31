@@ -1,30 +1,12 @@
-"use client";
+import Ratings from '@/components/Ratings'
+import Card from '@/components/Card'
+import Image from 'next/image'
 
-import Card1 from "@/components/Card1";
-import Card2 from "@/components/Card2";
-import Icon from "@/components/Icon/icon";
-import { motion } from "framer-motion";
-import Image from "next/image";
 
 export default function Home() {
-  const textVariants = {
-    initial: {
-      x:-500,
-      opacity: 0,
-    },
-    animate: {
-      x:0,
-      opacity: 1,
-      transition:{
-        duration:1,
-        staggerChildren:0.1,
-      }
-    },
-  }
   return (
-    <><main className="grid grid-cols-1 lg:grid-cols-2 min-h-screen bg-white">
-        <div className="pt-20 lg:pt-24 pl-4 pr-4 lg:pl-32 lg:pr-24 text-center lg:text-left lg:max-w-[35rem]"> 
-        <Image
+    <div className='min-h-screen grid p-6'>
+      <Image
           src="/assets/bg-pattern-top-desktop.svg"
           alt=""
           width={100}
@@ -32,24 +14,30 @@ export default function Home() {
           className="absolute top-0 w-[100%] h-[32%] md:w-[36%] md:h-[50%] left-0"
           aria-hidden="true"
         />
-      <motion.div className="text-primary-very-dark-magenta text-4xl font-bold" variants={textVariants} initial="initial" animate="animate">
-        10,000+ of our users love our products
-      <span className="flex flex-col flex-wrap pt-4 text-sm text-neutral-dark-grayish-magenta">We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</span>
-      </motion.div>
+      <div>
+        <section className="grid grid-cols-1 lg:grid-cols-2">
+          <article className='justify-center items-center lg:max-w-[25rem] pt-10 lg:pt-14 lg:pl-20'>
+          <h2 className='text-4xl text-primary-very-dark-magenta font-bold text-center lg:text-left'>10,000+ of our users love our products.
+          </h2>
+          <p className='font-bold pt-4 text-sm text-neutral-dark-grayish-magenta text-center lg:text-left'>
+          We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.
+          </p>
+          </article>
+          <Ratings />
+        </section>
+        <div className='grid grid-cols-1 lg:grid-cols-3 pt-11 lg:p-10 lg:pl-20 lg:pr-20'>
+          <Card />
+        </div>
       </div>
-      <motion.div className="flex flex-wrap items-center justify-center p-6 lg:pt-20" variants={textVariants} initial="initial" animate="animate">
-        <Card1 />
-      </motion.div>
       <Image
           src="/assets/bg-pattern-bottom-desktop.svg"
           alt=""
           width={100}
           height={100}
-          className="absolute bottom-0 w-[74%] h-[78%] right-0 hidden xl:block"
+          className="absolute bottom-0 w-[74%] h-[78%] right-0 hidden lg:block"
           aria-hidden="true"
         />
-      <Card2 />
-    </main>
-    </>
-  );
+     </div>
+  )
 }
+ 
