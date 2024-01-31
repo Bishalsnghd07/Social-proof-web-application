@@ -17,7 +17,7 @@ const Card = () => {
             <strong className='text-white font-semibold'>Colton Smith</strong> 
             <span className=' text-primary-soft-pink'>Verified Buyer</span> 
             </figcaption>
-            <blockquote className='text-white text-[14px]'>"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"</blockquote>
+            <blockquote className='text-white text-[14px]'>&quot;We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!&quot;</blockquote>
           </figure>
         </li>
       </ul>
@@ -35,7 +35,7 @@ const Card = () => {
             <strong className='text-white font-semibold'>Anne Wallace</strong> 
             <span className=' text-primary-soft-pink'>Verified Buyer</span> 
             </figcaption>
-            <blockquote className='text-white text-[14px]'>"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"</blockquote>
+            <blockquote className='text-white text-[14px]'>&quot;Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!&quot;</blockquote>
           </figure>
         </li>
       </ul>
@@ -54,7 +54,7 @@ const Card = () => {
             <strong className='text-white font-semibold'>Irene Roberts</strong> 
             <span className=' text-primary-soft-pink'>Verified Buyer</span> 
             </figcaption>
-            <blockquote className='text-white text-[14px]'>"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</blockquote>
+            <blockquote className='text-white text-[14px]'>&quot;Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery.&quot;</blockquote>
           </figure>
         </li>
       </ul>
