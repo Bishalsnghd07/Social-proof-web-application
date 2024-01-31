@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className='min-h-screen grid p-6'>
+    <div className='min-h-screen grid p-2'>
       <Image
           src="/assets/bg-pattern-top-desktop.svg"
           alt=""
@@ -16,7 +16,7 @@ export default function Home() {
         />
       <div>
         <section className="grid grid-cols-1 lg:grid-cols-2">
-          <article className='justify-center items-center lg:max-w-[25rem] pt-10 lg:pt-14 lg:pl-20'>
+          <article className='justify-center items-center lg:max-w-[25rem] pt-14 lg:pt-14 lg:pl-20 p-4 lg:p-auto'>
           <h2 className='text-4xl text-primary-very-dark-magenta font-bold text-center lg:text-left'>10,000+ of our users love our products.
           </h2>
           <p className='font-bold pt-4 text-sm text-neutral-dark-grayish-magenta text-center lg:text-left'>
@@ -25,7 +25,7 @@ export default function Home() {
           </article>
           <Ratings />
         </section>
-        <div className='grid grid-cols-1 lg:grid-cols-3 pt-11 lg:p-10 lg:pl-20 lg:pr-20'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 pt-11 lg:pl-20 lg:pr-20'>
           <Card />
         </div>
       </div>

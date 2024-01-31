@@ -3,9 +3,9 @@ import Icon from './Icon/icon'
 
 const Ratings = () => {
   return (
-    <div>
+    <div className='pl-5 pr-5 pt-5 lg:pt-0'>
     <ul>
-      <li className='pt-6 lg:pt-16'>
+      <li className='lg:pt-16'>
     <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-3 gap-2 lg:gap-4 justify-center items-center lg:max-w-[22rem] rounded-lg'>
     <div className='flex flex-wrap gap-2'>
           <Icon icon="star" 
