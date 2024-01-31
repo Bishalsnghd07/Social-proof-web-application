@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className='min-h-screen grid p-2'>
+    <div className='min-h-screen grid'>
       <Image
           src="/assets/bg-pattern-top-desktop.svg"
           alt=""
