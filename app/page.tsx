@@ -25,7 +25,7 @@ export default function Home() {
           </article>
           <Ratings />
         </section>
-        <div className='grid grid-cols-1 lg:grid-cols-3 pt-11 lg:pl-20 lg:pr-20'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 pb-8 lg:pb-0 pt-11 lg:pl-20 lg:pr-20 '>
           <Card />
         </div>
       </div>

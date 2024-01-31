@@ -3,12 +3,12 @@ import Image from 'next/image'
 const Card = () => {
   return (
     <>
-      <ul className=' justify-start items-start pl-5 lg:pl-0 pr-5 lg:pr-0'>
+      <ul className='justify-start items-start pl-5 lg:pl-0 pr-5 lg:pr-0'>
         <li className='bg-primary-very-dark-magenta rounded-lg p-6'>
           <figure className='flex flex-wrap  gap-4'>
           <Image
               src="/assets/image-colton.jpg"
-              alt='Colton Smith'
+              alt=''
               width={50}
               height={50}
               className='rounded-full lg:w-lg:[15%] lg:h-[15%] object-cover'
@@ -26,7 +26,7 @@ const Card = () => {
           <figure className='flex flex-wrap  gap-4'>
           <Image
               src="/assets/image-anne.jpg"
-              alt='Anne Wallace'
+              alt=''
               width={50}
               height={50}
               className='rounded-full lg:w-lg:[15%] lg:h-[15%] object-cover'
