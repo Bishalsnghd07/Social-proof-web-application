@@ -11,7 +11,7 @@ const Card = () => {
               alt='Colton Smith'
               width={50}
               height={50}
-              className='rounded-full w-[3rem] h-[3rem] object-cover'
+              className='rounded-full lg:w-lg:[15%] lg:h-[15%] object-cover'
             />
             <figcaption className='flex flex-col'>
             <strong className='text-white font-semibold'>Colton Smith</strong> 
@@ -29,7 +29,7 @@ const Card = () => {
               alt='Anne Wallace'
               width={50}
               height={50}
-              className='rounded-full w-[3rem] h-[3rem] object-cover'
+              className='rounded-full lg:w-lg:[15%] lg:h-[15%] object-cover'
             />
             <figcaption className='flex flex-col'>
             <strong className='text-white font-semibold'>Anne Wallace</strong> 
@@ -48,7 +48,7 @@ const Card = () => {
               alt='Irene Roberts'
               width={50}
               height={50}
-              className='rounded-full w-[3rem] h-[3rem] object-cover'
+              className='rounded-full lg:w-lg:[15%] lg:h-[15%] object-cover'
             />
             <figcaption className='flex flex-col'>
             <strong className='text-white font-semibold'>Irene Roberts</strong> 
