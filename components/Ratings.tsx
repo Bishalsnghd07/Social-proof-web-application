@@ -3,10 +3,11 @@ import Icon from './Icon/icon'
 
 const Ratings = () => {
   return (
-    <div className='pl-5 pr-5 lg:pr-0 pt-5 lg:pt-16'>
+    <div>
+      {/* pl-5 pr-5 lg:pr-0 pt-5 lg:pt-auto */}
     <ul>
-      <li>
-    <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-3 gap-2 lg:gap-4 justify-center items-center lg:max-w-[22rem] rounded-lg'>
+      <li className='flex pl-5 lg:pl-12 pr-5 pt-5 lg:pt-[5.9rem]'>
+    <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-4 gap-2 lg:gap-4 justify-center items-center w-full lg:max-w-[24rem] lg:pl-6 lg:pr-6 rounded-lg'>
     <div className='flex flex-wrap gap-2'>
           <Icon icon="star" 
           aria-hidden="true" />
@@ -21,8 +22,8 @@ const Ratings = () => {
     </ul>
     <div>
       <ul>
-        <li className='pt-4 lg:pl-10'>
-    <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-3 gap-2 lg:gap-4 justify-center items-center lg:max-w-[22rem] rounded-lg'>
+        <li className='flex pl-5 pr-5 pt-4 lg:pt-6 lg:pl-[5rem]'>
+    <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-4 lg:pl-6 lg:pr-6 gap-2 lg:gap-4 justify-center items-center w-full lg:max-w-[25rem] rounded-lg'>
     <div className='flex flex-wrap gap-2'>
           <Icon icon="star" 
           aria-hidden="true" />
@@ -38,8 +39,8 @@ const Ratings = () => {
     </div>
     <div>
       <ul>
-        <li className='pt-4 lg:pl-20'>
-        <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-3 gap-2 lg:gap-4 justify-center items-center lg:max-w-[22rem] rounded-lg'>
+        <li className='flex pl-5 pr-5 pt-4 lg:pt-6 lg:pl-[7rem]'>
+        <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-4 gap-2 lg:gap-4 justify-center items-center lg:pl-6 lg:pr-6 lg:max-w-[25rem] rounded-lg w-full'>
     <div className='flex flex-wrap gap-2'>
           <Icon icon="star" 
           aria-hidden="true" />

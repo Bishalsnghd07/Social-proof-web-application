@@ -16,10 +16,10 @@ export default function Home() {
         />
       <div>
         <section className="grid grid-cols-1 lg:grid-cols-2">
-          <article className='justify-center items-center lg:max-w-[25rem] pt-14 lg:pt-14 lg:pl-20 p-4 lg:p-auto'>
-          <h2 className='text-4xl text-primary-very-dark-magenta font-bold text-center lg:text-left'>10,000+ of our users love our products.
+          <article className='justify-center items-center lg:max-w-[28rem] pt-14 lg:pt-14 lg:pl-20 p-4 lg:p-auto'>
+          <h2 className='text-4xl text-primary-very-dark-magenta font-bold text-center lg:text-left lg:pl-8 lg:pt-6'>10,000+ of our users love our products.
           </h2>
-          <p className='font-bold pt-4 text-sm text-neutral-dark-grayish-magenta text-center lg:text-left'>
+          <p className='font-bold pt-4 text-sm text-neutral-dark-grayish-magenta text-center lg:text-left lg:pl-8'>
           We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.
           </p>
           </article>
