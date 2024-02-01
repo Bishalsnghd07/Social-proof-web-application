@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Card = () => {
   return (
     <>
-      <ul className='justify-start items-start pl-5 lg:pl-0 pr-5 lg:pr-0'>
+      <ul className='justify-start items-start pl-5 lg:pl-4 pr-5 lg:pr-6'>
         <li className='bg-primary-very-dark-magenta rounded-lg p-6'>
           <figure className='flex flex-wrap  gap-4'>
           <Image
@@ -11,7 +11,7 @@ const Card = () => {
               alt=''
               width={50}
               height={50}
-              className='rounded-full lg:w-lg:[3rem] lg:h-[3rem] object-cover'
+              className='rounded-full'
             />
             <figcaption className='flex flex-col'>
             <strong className='text-white font-semibold'>Colton Smith</strong> 
@@ -21,7 +21,7 @@ const Card = () => {
           </figure>
         </li>
       </ul>
-      <ul className=' justify-start items-start pl-5 lg:pl-6 pr-5 lg:pr-0 pt-4'>
+      <ul className='justify-start items-start pl-5 lg:pl-2 pr-5 lg:pr-8 pt-4'>
         <li className='bg-primary-very-dark-magenta rounded-lg p-6'>
           <figure className='flex flex-wrap  gap-4'>
           <Image
@@ -29,7 +29,7 @@ const Card = () => {
               alt=''
               width={50}
               height={50}
-              className='rounded-full lg:w-lg:[3rem] lg:h-[3rem] object-cover'
+              className='rounded-full lg:w-[3rem] lg:h-[3rem]'
             />
             <figcaption className='flex flex-col'>
             <strong className='text-white font-semibold'>Anne Wallace</strong> 
@@ -40,7 +40,7 @@ const Card = () => {
         </li>
       </ul>
 
-      <ul className=' justify-start items-start pl-5 lg:pl-6 pr-5 lg:pr-0 pt-4 lg:pt-8'>
+      <ul className=' justify-start items-start pl-5 lg:pl-0 pr-5 lg:pr-8 pt-4 lg:pt-[1.9rem]'>
         <li className='bg-primary-very-dark-magenta rounded-lg p-6'>
           <figure className='flex flex-wrap  gap-4'>
           <Image
@@ -48,7 +48,7 @@ const Card = () => {
               alt='Irene Roberts'
               width={50}
               height={50}
-              className='rounded-full lg:w-lg:[3rem] lg:h-[3rem] object-cover'
+              className='rounded-full lg:w-[3rem] lg:h-[3rem]'
             />
             <figcaption className='flex flex-col'>
             <strong className='text-white font-semibold'>Irene Roberts</strong> 

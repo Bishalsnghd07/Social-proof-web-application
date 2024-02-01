@@ -14,7 +14,7 @@ export default function Home() {
           className="absolute top-0 w-[100%] h-[32%] md:w-[36%] md:h-[50%] left-0"
           aria-hidden="true"
         />
-      <div>
+      <div className='z-10'>
         <section className="grid grid-cols-1 lg:grid-cols-2">
           <article className='justify-center items-center lg:max-w-[28rem] pt-14 lg:pt-14 lg:pl-20 p-4 lg:p-auto'>
           <h2 className='text-4xl text-primary-very-dark-magenta font-bold text-center lg:text-left lg:pl-8 lg:pt-6'>10,000+ of our users love our products.
@@ -25,7 +25,7 @@ export default function Home() {
           </article>
           <Ratings />
         </section>
-        <div className='grid grid-cols-1 lg:grid-cols-3 pb-8 lg:pb-0 pt-11 lg:pl-20 lg:pr-20 '>
+        <div className='grid grid-cols-1 lg:grid-cols-3 pb-8 lg:pb-0 pt-11 lg:pl-24 lg:pr-24'>
           <Card />
         </div>
       </div>
