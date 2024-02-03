@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-const Card = () => {
+const Testimonials = () => {
   return (
     <>
       <ul className='justify-start items-start pl-5 lg:pl-4 pr-5 lg:pr-6'>
@@ -62,4 +62,4 @@ const Card = () => {
   )
 }
 
-export default Card
+export default Testimonials
