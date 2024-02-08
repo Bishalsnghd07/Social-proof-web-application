@@ -5,7 +5,7 @@ const Ratings = () => {
   return (
     <div>
     <ul>
-      <li className='pl-5 lg:pl-[3.8rem] pr-5 pt-2 lg:pt-[1.8rem]'>
+      <li className='pl-5 lg:pl-[3.8rem] pr-5 pt-2 lg:pt-[3.6rem]'>
     <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-4 gap-2 lg:gap-6 justify-center items-center w-full lg:max-w-[25rem] lg:pl-1 lg:pr-6 rounded-lg'>
       <div className='flex flex-wrap gap-2'>
           <Icon icon="star" 

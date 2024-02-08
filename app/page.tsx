@@ -11,12 +11,12 @@ export default function Home() {
           alt=""
           width={100}
           height={100}
-          className="absolute top-0 w-[100%] h-[32%] md:w-[44%] md:h-[52%] left-0"
+          className="absolute top-0 w-[100%] h-[32%] md:w-[40%] md:h-[54%] left-0"
           aria-hidden="true"
         />
       <div className='z-10'>
         <section className="grid grid-cols-1 lg:grid-cols-2 lg:max-w-[68rem]">
-          <article className='justify-center items-center pt-16 lg:pt-0 lg:pl-0 p-5 lg:p-0 lg:max-w-[25.8rem]'>
+          <article className='justify-center items-center pt-16 lg:pt-8 lg:pl-0 p-5 lg:p-0 lg:max-w-[25.8rem]'>
           <h1 className='text-4xl lg:text-5xl text-primary-very-dark-magenta font-sans font-bold text-center lg:text-left'>10,000+ of our users love our products.
           </h1>
           <p className='font-sans font-semibold pt-4 text-base text-neutral-dark-grayish-magenta text-center lg:text-left'>
