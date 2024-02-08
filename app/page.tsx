@@ -16,7 +16,7 @@ export default function Home() {
         />
       <div className='z-10'>
         <section className="grid grid-cols-1 lg:grid-cols-2">
-          <article className='justify-center items-center pt-14 lg:pt-24 lg:pl-16 p-4 lg:p-auto lg:max-w-[28.96rem]'>
+          <article className='justify-center items-center pt-20 lg:pt-16 lg:pl-8 p-4 lg:p-auto lg:max-w-[26.96rem]'>
           <h1 className='text-4xl text-primary-very-dark-magenta font-bold text-center lg:text-left lg:pl-[3rem]'>10,000+ of our users love our products.
           </h1>
           <p className='font-bold pt-4 text-sm text-neutral-dark-grayish-magenta text-center lg:text-left lg:pl-12'>
@@ -25,7 +25,7 @@ export default function Home() {
           </article>
           <Ratings />
         </section>
-        <div className='grid grid-cols-1 lg:grid-cols-3 pt-12 lg:pt-8 lg:pl-24 lg:pr-[0.7rem] lg:max-w-[68rem]'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 pt-12 lg:pt-8 lg:pl-16 lg:pr-[0.7rem] lg:max-w-[68rem] pb-8 lg:pb-2'>
           <Testimonials />
         </div>
       </div>
