@@ -25,7 +25,7 @@ export default function Home() {
           </article>
           <Ratings />
         </section>
-        <div className='grid grid-cols-1 lg:grid-cols-3 pt-12 lg:pt-20 lg:pl-0 lg:pr-[0.7rem] lg:max-w-[68rem] pb-8 lg:pb-0'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 pt-12 lg:pt-16 lg:pl-0 lg:pr-[0.7rem] lg:max-w-[68rem] pb-8 lg:pb-0'>
           <Testimonials />
         </div>
       </div>

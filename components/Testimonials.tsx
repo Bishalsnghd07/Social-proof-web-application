@@ -4,8 +4,8 @@ const Testimonials = () => {
   return (
     <>
       <ul className='justify-start items-start pl-5 lg:pl-0 pr-5 lg:pr-6'>
-        <li className='p-9 bg-primary-very-dark-magenta rounded-lg lg:h-[13.2rem]'>
-          <figure className='flex flex-wrap gap-4'>
+        <li className='p-9 bg-primary-very-dark-magenta rounded-lg'>
+          <figure className='flex flex-wrap gap-5'>
           <Image
               src="/assets/image-colton.jpg"
               alt=''
@@ -22,8 +22,8 @@ const Testimonials = () => {
         </li>
       </ul>
       <ul className='justify-start items-start pl-5 lg:pl-2 pr-5 lg:pr-6 pt-4'>
-        <li className='bg-primary-very-dark-magenta rounded-lg p-10 lg:h-[13.4rem]'>
-          <figure className='flex flex-wrap  gap-4'>
+        <li className='bg-primary-very-dark-magenta rounded-lg p-10'>
+          <figure className='flex flex-wrap  gap-5'>
           <Image
               src="/assets/image-anne.jpg"
               alt=''
@@ -41,8 +41,8 @@ const Testimonials = () => {
       </ul>
 
       <ul className='justify-start items-start pl-5 lg:pl-2 pr-5 lg:pr-4 pt-4 lg:pt-[1.9rem]'>
-        <li className='bg-primary-very-dark-magenta rounded-lg p-10 lg:h-[13.6rem]'>
-          <figure className='flex flex-wrap  gap-4'>
+        <li className='bg-primary-very-dark-magenta rounded-lg p-10'>
+          <figure className='flex flex-wrap  gap-5'>
           <Image
               src="/assets/image-irene.jpg"
               alt='Irene Roberts'
