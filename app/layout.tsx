@@ -22,7 +22,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en"  className={`${spartan.variable}`}>
+    <html lang="en" className={`${spartan.variable}`}
+    >
       <body>
         {children}
       </body>

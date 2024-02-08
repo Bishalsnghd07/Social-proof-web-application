@@ -15,17 +15,17 @@ export default function Home() {
           aria-hidden="true"
         />
       <div className='z-10'>
-        <section className="grid grid-cols-1 lg:grid-cols-2">
-          <article className='justify-center items-center pt-20 lg:pt-16 lg:pl-8 p-4 lg:p-auto lg:max-w-[26.96rem]'>
-          <h1 className='text-4xl text-primary-very-dark-magenta font-bold text-center lg:text-left lg:pl-[3rem]'>10,000+ of our users love our products.
+        <section className="grid grid-cols-1 lg:grid-cols-2 lg:max-w-[68rem]">
+          <article className='justify-center items-center pt-16 lg:pt-6 lg:pl-0 p-5 lg:p-0 lg:max-w-[25.8rem]'>
+          <h1 className='text-4xl lg:text-5xl text-primary-very-dark-magenta font-extrabold text-center lg:text-left lg:pl-[3rem]'>10,000+ of our users love our products.
           </h1>
-          <p className='font-bold pt-4 text-sm text-neutral-dark-grayish-magenta text-center lg:text-left lg:pl-12'>
+          <p className='font-semibold pt-4 text-base text-neutral-dark-grayish-magenta text-center lg:text-left lg:pl-12'>
           We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.
           </p>
           </article>
           <Ratings />
         </section>
-        <div className='grid grid-cols-1 lg:grid-cols-3 pt-12 lg:pt-8 lg:pl-16 lg:pr-[0.7rem] lg:max-w-[68rem] pb-8 lg:pb-2'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 pt-12 lg:pt-12 lg:pl-12 lg:pr-[0.7rem] lg:max-w-[68rem] pb-8 lg:pb-0'>
           <Testimonials />
         </div>
       </div>
