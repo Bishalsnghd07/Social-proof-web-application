@@ -7,9 +7,9 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-      fontFamily: {
-        sans: ['var(--font-spartan)'],
-      },
+    fontFamily: {
+      'league': ['League Spartan', 'sans-serif']
+    },
     extend: {
       colors: {
         primary: {
