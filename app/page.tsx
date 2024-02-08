@@ -16,7 +16,7 @@ export default function Home() {
         />
       <div className='z-10 font-sans'>
         <section className="grid grid-cols-1 lg:grid-cols-2 lg:max-w-[68rem]">
-          <article className='justify-center items-center pt-16 lg:pt-6 lg:pl-0 p-5 lg:p-0 lg:max-w-[25.8rem]'>
+          <article className='justify-center items-center pt-16 lg:pt-2 lg:pl-0 p-5 lg:p-0 lg:max-w-[25.8rem]'>
           <h1 className='text-4xl lg:text-5xl text-primary-very-dark-magenta font-sans font-bold text-center lg:text-left lg:pl-[3rem]'>10,000+ of our users love our products.
           </h1>
           <p className='font-sans font-semibold pt-4 text-base text-neutral-dark-grayish-magenta text-center lg:text-left lg:pl-12'>
