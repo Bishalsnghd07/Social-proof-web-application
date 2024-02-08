@@ -5,7 +5,7 @@ import "./globals.css";
 
 export default function Home() {
   return (
-    <div className='flex min-h-screen items-center justify-center p-4'>
+    <div className='flex min-h-screen items-center justify-center lg:pl-4 lg:pr-4'>
       <Image
           src="/assets/bg-pattern-top-desktop.svg"
           alt=""
