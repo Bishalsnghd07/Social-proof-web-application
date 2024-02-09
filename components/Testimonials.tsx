@@ -40,7 +40,7 @@ const Testimonials = () => {
         </li>
       </ul>
 
-      <ul className='justify-start items-start pl-5 lg:pl-2 pr-5 lg:pr-4 pt-4 lg:pt-[2.1rem]'>
+      <ul className='justify-start items-start pl-5 lg:pl-2 pr-5 lg:pr-4 pt-4 lg:pt-[2.2rem]'>
         <li className='bg-primary-very-dark-magenta rounded-lg p-9'>
           <figure className='flex flex-wrap  gap-4'>
           <Image

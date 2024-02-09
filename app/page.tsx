@@ -16,10 +16,10 @@ export default function Home() {
         />
       <div className='z-10'>
         <section className="grid grid-cols-1 lg:grid-cols-2 lg:max-w-[74rem]">
-          <article className='justify-center items-center pt-16 lg:pt-2 lg:pl-6 p-5 lg:p-0'>
+          <article className='justify-center items-center pt-16 lg:pt-3 lg:pl-6 p-5 lg:p-0'>
           <h1 className='text-4xl lg:text-5xl text-primary-very-dark-magenta font-sans font-bold text-center lg:text-left lg:max-w-[25.8rem]'>10,000+ of our users love our products.
           </h1>
-          <p className='font-sans font-medium pt-4 text-lg text-neutral-dark-grayish-magenta text-center lg:text-left lg:max-w-[26.8rem]'>
+          <p className='font-sans font-medium pt-4 lg:pt-6 text-lg text-neutral-dark-grayish-magenta text-center lg:text-left lg:max-w-[26.8rem]'>
           We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.
           </p>
           </article>
