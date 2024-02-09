@@ -6,7 +6,7 @@ const Ratings = () => {
     <div>
     <ul>
       <li className='pl-5 lg:pl-[1.6rem] pr-5 pt-2 lg:pt-[2.4rem]'>
-    <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-[0.80rem] gap-2 lg:gap-6 justify-center items-center w-full lg:max-w-[29.4rem] lg:pr-16 rounded-lg'>
+    <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-[0.82rem] gap-2 lg:gap-6 justify-center items-center w-full lg:max-w-[29.4rem] lg:pr-16 rounded-lg'>
       <div className='flex flex-wrap gap-2'>
           <Icon icon="star" 
           aria-hidden="true" />
@@ -22,7 +22,7 @@ const Ratings = () => {
 
     <ul>
       <li className='pl-5 lg:pl-[3.8rem] pr-5 pt-5'>
-    <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-[0.80rem] gap-2 lg:gap-6 justify-center items-center w-full lg:max-w-[29.4rem] lg:pl-1 lg:pr-6 rounded-lg'>
+    <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-[0.82rem] gap-2 lg:gap-6 justify-center items-center w-full lg:max-w-[29.4rem] lg:pl-1 lg:pr-6 rounded-lg'>
     <div className='flex flex-wrap gap-2'>
           <Icon icon="star" 
           aria-hidden="true" />
@@ -38,7 +38,7 @@ const Ratings = () => {
     
      <ul>
       <li className='pl-5 lg:pl-[5.8rem] pr-5 pt-5'>
-    <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-[0.80rem] gap-2 lg:gap-6 justify-center items-center w-full lg:max-w-[29.4rem] lg:pl-1 lg:pr-6 rounded-lg'>
+    <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-[0.82rem] gap-2 lg:gap-6 justify-center items-center w-full lg:max-w-[29.4rem] lg:pl-1 lg:pr-6 rounded-lg'>
     <div className='flex flex-wrap gap-2'>
           <Icon icon="star" 
           aria-hidden="true" />
