@@ -11,7 +11,7 @@ export default function Home() {
           alt=""
           width={100}
           height={100}
-          className="absolute top-0 w-[100%] h-[32%] md:w-[40%] md:h-[54%] left-0"
+          className="absolute top-0 w-[100%] h-[32%] md:w-[36%] md:h-[54%] left-0"
           aria-hidden="true"
         />
       <div className='z-10'>
