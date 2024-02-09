@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Testimonials = () => {
   return (
     <>
-      <ul className='justify-start items-start pl-5 lg:pl-0 pr-5 lg:pr-4'>
+      <ul className='justify-start items-start pl-5 lg:pl-0 lg:pt-[0.1rem] pr-5 lg:pr-4'>
         <li className='p-9 bg-primary-very-dark-magenta rounded-lg'>
           <figure className='flex flex-wrap gap-5'>
           <Image
