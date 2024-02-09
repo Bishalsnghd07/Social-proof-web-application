@@ -21,7 +21,7 @@ const Testimonials = () => {
           </figure>
         </li>
       </ul>
-      <ul className='justify-start items-start pl-5 lg:pl-2 pr-5 lg:pr-4 pt-4'>
+      <ul className='justify-start items-start pl-5 lg:pl-2 pr-5 lg:pt-[1.2rem] lg:pr-4 pt-4'>
         <li className='bg-primary-very-dark-magenta rounded-lg p-9'>
           <figure className='flex flex-wrap  gap-5'>
           <Image
@@ -40,7 +40,7 @@ const Testimonials = () => {
         </li>
       </ul>
 
-      <ul className='justify-start items-start pl-5 lg:pl-2 pr-5 lg:pr-4 pt-4 lg:pt-[1.9rem]'>
+      <ul className='justify-start items-start pl-5 lg:pl-2 pr-5 lg:pr-4 pt-4 lg:pt-[2.1rem]'>
         <li className='bg-primary-very-dark-magenta rounded-lg p-9'>
           <figure className='flex flex-wrap  gap-4'>
           <Image
