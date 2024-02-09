@@ -5,8 +5,8 @@ const Ratings = () => {
   return (
     <div>
     <ul>
-      <li className='pl-5 lg:pl-[1.8rem] pr-5 pt-2 lg:pt-[2.6rem]'>
-    <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-4 gap-2 lg:gap-6 justify-center items-center w-full lg:max-w-[29.4rem] lg:pl-1 lg:pr-6 rounded-lg'>
+      <li className='pl-5 lg:pl-[1.6rem] pr-5 pt-2 lg:pt-[2.1rem]'>
+    <div className='flex flex-col lg:flex-row bg-neutral-light-grayish-magenta p-4 gap-2 lg:gap-6 justify-center items-center w-full lg:max-w-[29.4rem] lg:pr-12 rounded-lg'>
       <div className='flex flex-wrap gap-2'>
           <Icon icon="star" 
           aria-hidden="true" />
