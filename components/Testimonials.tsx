@@ -3,9 +3,9 @@ import Image from 'next/image'
 const Testimonials = () => {
   return (
     <>
-      <ul className='justify-start items-start pl-5 lg:pl-0 lg:pt-[0.16rem] pr-5 lg:pr-4'>
-        <li className=' bg-primary-very-dark-magenta rounded-lg p-[2.27rem]'>
-          <figure className='flex flex-wrap gap-5 lg:pt-[0.3rem]'>
+      <ul className='justify-start items-start pl-5 lg:pl-0 lg:pt-[0.22rem] pr-5 lg:pr-4'>
+        <li className=' bg-primary-very-dark-magenta rounded-lg p-[2.20rem]'>
+          <figure className='flex flex-wrap gap-5 lg:pt-[0.34rem]'>
           <Image
               src="/assets/image-colton.jpg"
               alt=''
