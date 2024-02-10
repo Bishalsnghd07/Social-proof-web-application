@@ -5,7 +5,7 @@ const Testimonials = () => {
     <>
       <ul className='justify-start items-start pl-5 lg:pl-1 lg:pt-[0.22rem] pr-5 lg:pr-4'>
         <li className=' bg-primary-very-dark-magenta rounded-lg p-[2.32rem]'>
-          <figure className='flex flex-wrap gap-5 lg:pt-[0.34rem]'>
+          <figure className='flex flex-wrap gap-5 lg:pt-[0.35rem]'>
           <Image
               src="/assets/image-colton.jpg"
               alt=''
@@ -13,9 +13,9 @@ const Testimonials = () => {
               height={50}
               className='lg:w-[2.5rem] lg:h-[2.5rem] rounded-full'
             />
-            <figcaption className='flex flex-col'>
-            <strong className='text-white font-semibold text-base'>Colton Smith</strong> 
-            <span className=' text-primary-soft-pink text-base'>Verified Buyer</span> 
+            <figcaption className='flex flex-col text-base leading-[1.4rem]'>
+            <strong className='text-white font-semibold'>Colton Smith</strong> 
+            <span className=' text-primary-soft-pink'>Verified Buyer</span> 
             </figcaption>
             <blockquote className='text-white font-medium text-[0.96rem] leading-[1.4rem]'>&quot;We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!&quot;</blockquote>
           </figure>
