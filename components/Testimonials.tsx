@@ -4,8 +4,8 @@ const Testimonials = () => {
   return (
     <>
       <ul className='justify-start items-start pl-5 lg:pl-0 lg:pt-[0.22rem] pr-5 lg:pr-4'>
-        <li className=' bg-primary-very-dark-magenta rounded-lg p-[2.26rem]'>
-          <figure className='flex flex-wrap gap-5 lg:pt-[0.30rem]'>
+        <li className=' bg-primary-very-dark-magenta rounded-lg p-[2.32rem]'>
+          <figure className='flex flex-wrap gap-5  lg:pt-[0.30rem]'>
           <Image
               src="/assets/image-colton.jpg"
               alt=''
@@ -17,7 +17,7 @@ const Testimonials = () => {
             <strong className='text-white font-semibold text-base'>Colton Smith</strong> 
             <span className=' text-primary-soft-pink text-base'>Verified Buyer</span> 
             </figcaption>
-            <blockquote className='text-white font-medium text-[0.97rem]'>&quot;We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!&quot;</blockquote>
+            <blockquote className='text-white font-medium text-[0.96rem]'>&quot;We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!&quot;</blockquote>
           </figure>
         </li>
       </ul>
