@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Testimonials = () => {
   return (
     <>
-      <ul className='justify-start items-start pl-5 lg:pl-0 lg:pt-[0.22rem] pr-5 lg:pr-4'>
+      <ul className='justify-start items-start pl-5 lg:pl-1 lg:pt-[0.22rem] pr-5 lg:pr-4'>
         <li className=' bg-primary-very-dark-magenta rounded-lg p-[2.32rem]'>
           <figure className='flex flex-wrap gap-5 lg:pt-[0.34rem]'>
           <Image
@@ -17,7 +17,7 @@ const Testimonials = () => {
             <strong className='text-white font-semibold text-base'>Colton Smith</strong> 
             <span className=' text-primary-soft-pink text-base'>Verified Buyer</span> 
             </figcaption>
-            <blockquote className='text-white font-medium text-[0.96rem]'>&quot;We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!&quot;</blockquote>
+            <blockquote className='text-white font-medium text-[0.96rem] leading-[1.4rem]'>&quot;We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!&quot;</blockquote>
           </figure>
         </li>
       </ul>
