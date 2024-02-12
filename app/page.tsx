@@ -25,10 +25,12 @@ export default function Home() {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[38.5rem] rounded-b-lg shadow-2xl">
           <section className='flex flex-col sm:items-start sm:justify-start bg-primary-cyan sm:rounded-bl-lg p-9'>
-            <h2 className='flex-wrap font-karla text-neutral-white font-semibold w-full'>Monthly Subscription</h2>
-            <h3 className='flex flex-row text-3xl mt-5 font-semibold text-white gap-[0.60rem]'>$29
-            <p className='font-karla text-gray-300 text-sm items-center font-thin pt-[0.60rem]'>per month</p>
-            </h3>
+            <h2 className='flex font-karla text-neutral-white font-semibold w-full'>Monthly Subscription</h2>
+            
+            <div className='flex flex-row text-3xl mt-5 font-semibold text-white gap-[0.60rem]'>$29
+            <p className='font-karla text-gray-300 text-sm items-center font-thin mt-[0.64em]'>per month</p>
+            </div>
+           
             <p className='mt-3 font-karla text-neutral-Light-Gray text-[0.99rem]'>Full access for less than $1 a day</p>
            
           <a href='/' className='mt-10 bg-primary-Bright-Yellow w-full py-3 rounded-md shadow-xl text-center hover:bg-[#cae51a] text-base text-white cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#c7e51a]'>Sign up</a>        
