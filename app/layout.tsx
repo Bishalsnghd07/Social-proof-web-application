@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { League_Spartan } from "next/font/google";
+import { Karla } from "next/font/google";
 import "./globals.css";
 
-const spartan = League_Spartan({
+const karla = Karla({
   subsets: ['latin'],
-  weight: ['400', '500', '700'],
-  variable: '--font-spartan',
+  weight: ['400', '700'],
+  variable: '--font-karla',
   display: 'swap',
 });
 
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${spartan.variable}`}
+    <html lang="en" className={`${karla.variable}`}
     >
       <body>
         {children}
