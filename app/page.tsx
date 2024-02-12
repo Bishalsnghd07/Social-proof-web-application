@@ -17,27 +17,27 @@ export default function Home() {
   return (
     <main className='flex flex-col min-h-screen p-8  justify-center items-center bg-neutral-Light-Gray overflow-hidden'>
       <div className='grid bg-white rounded-t-lg sm:w-[38.5rem] shadow-2xl'>
-        <article className='p-8 flex flex-col flex-wrap'>
+        <article className='px-9 py-10 flex flex-col flex-wrap'>
           <h1 className=' text-primary-cyan justify-start items-start font-semibold text-2xl'>Join our community</h1>
           <h2 className=' text-primary-Bright-Yellow font-semibold text-lg pt-[1.1rem]'>30-day hassle-free money back guarantee</h2>
-          <p className=' text-neutral-Grayish-Blue pt-2 text-base font-karla sm:max-w-[34.56rem]'>Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
+          <p className=' text-neutral-Grayish-Blue pt-2 text-base font-karla sm:max-w-[34.56rem] pb-6'>Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
         </article>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[38.5rem] rounded-b-lg  shadow-2xl">
+      <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[38.5rem] rounded-b-lg shadow-2xl">
           <section className='flex flex-col sm:items-start sm:justify-start bg-primary-cyan sm:rounded-bl-lg p-9'>
-            <h2 className='flex-wrap font-karla text-neutral-Light-Gray font-medium w-full'>Monthly Subscription</h2>
-            <h3 className='flex flex-row text-3xl pt-5 font-semibold text-white gap-[0.60rem]'>$29
-            <p className='font-karla text-gray-300 text-xs items-center pt-[0.66rem]'>per month</p>
+            <h2 className='flex-wrap font-karla text-neutral-white font-semibold w-full'>Monthly Subscription</h2>
+            <h3 className='flex flex-row text-3xl mt-5 font-semibold text-white gap-[0.60rem]'>$29
+            <p className='font-karla text-gray-300 text-sm items-center font-thin pt-[0.60rem]'>per month</p>
             </h3>
-            <p className='pt-3 font-karla text-neutral-Light-Gray text-[0.99rem]'>Full access for less than $1 a day</p>
+            <p className='mt-3 font-karla text-neutral-Light-Gray text-[0.99rem]'>Full access for less than $1 a day</p>
            
           <a href='/' className='mt-10 bg-primary-Bright-Yellow w-full py-3 rounded-md shadow-xl text-center hover:bg-[#cae51a] text-base text-white cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#c7e51a]'>Sign up</a>        
           </section>
         <section className='flex flex-col p-9 justify-start bg-[#41bbb9] rounded-b-lg sm:rounded-b-none sm:rounded-br-lg'>
-          <h2 className='text-neutral-Light-Gray font-medium font-karla'>
-          Why us
+          <h2 className='text-neutral-white font-semibold font-karla'>
+          Why Us
           </h2>
-          <p className='text-slate-300 font-karla pt-4 sm:max-w-[12.46rem] text-[0.99rem]'>Tutorials by industry experts Peer & expert code review Coding exercises Access to our GitHub repos Community forum Flashcard decks New videos every week</p>
+          <p className='text-slate-300 font-karla mt-4 sm:max-w-[12.46rem] text-base'>Tutorials by industry experts Peer & expert code review Coding exercises Access to our GitHub repos Community forum Flashcard decks New videos every week</p>
          
         </section>
       </div>
