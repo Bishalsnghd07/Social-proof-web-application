@@ -26,12 +26,12 @@ export default function Home() {
       <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[38.5rem] rounded-b-lg  shadow-2xl">
           <section className='flex flex-col sm:items-start sm:justify-start bg-primary-cyan sm:rounded-bl-lg p-9'>
             <h2 className='flex-wrap font-karla text-neutral-Light-Gray font-medium w-full'>Monthly Subscription</h2>
-            <h3 className='flex-row text-3xl pt-5 font-semibold text-white gap-4'>$29
-            <p className='text-gray-300 text-xs items-center pt-[0.66rem]'>per month</p>
+            <h3 className='flex flex-row text-3xl pt-5 font-semibold text-white gap-[0.60rem]'>$29
+            <p className='font-karla text-gray-300 text-xs items-center pt-[0.66rem]'>per month</p>
             </h3>
             <p className='pt-3 font-karla text-neutral-Light-Gray text-[0.99rem]'>Full access for less than $1 a day</p>
            
-          <a href='/' className='mt-10 bg-primary-Bright-Yellow w-full py-3 rounded-md shadow-xl text-center hover:bg-[#c7e51a] text-base text-white cursor-pointer'>Sign up</a>        
+          <a href='/' className='mt-10 bg-primary-Bright-Yellow w-full py-3 rounded-md shadow-xl text-center hover:bg-[#cae51a] text-base text-white cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#c7e51a]'>Sign up</a>        
           </section>
         <section className='flex flex-col p-9 justify-start bg-[#41bbb9] rounded-b-lg sm:rounded-b-none sm:rounded-br-lg'>
           <h2 className='text-neutral-Light-Gray font-medium font-karla'>
