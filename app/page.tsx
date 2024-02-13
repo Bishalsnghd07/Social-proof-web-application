@@ -35,8 +35,8 @@ export default function Home() {
         <motion.section className="grid grid-cols-1 lg:grid-cols-2 lg:max-w-[74rem]" variants={textVariants} initial="initial"
         animate="animate">
           <article className='justify-center items-center pt-16 lg:pt-3 lg:pl-6 p-5 lg:p-0'>
-          <h1 className='text-4xl lg:text-5xl text-primary-very-dark-magenta font-sans font-bold text-center lg:text-left lg:max-w-[25.8rem]'>10,000+ of our users love our products.
-          </h1>
+          <h2 className='text-4xl lg:text-5xl text-primary-very-dark-magenta font-sans font-bold text-center lg:text-left lg:max-w-[25.8rem]'>10,000+ of our users love our products.
+          </h2>
           <p className=' font-medium pt-4 lg:pt-6 text-lg text-[#a777a5] text-center lg:text-left lg:max-w-[29rem] leading-6'>
           We only provide great <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
     <span className="relative text-white">products</span>
