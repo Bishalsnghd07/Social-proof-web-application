@@ -20,8 +20,8 @@ const Testimonials = () => {
             <span className="hidden lg:block bottom-0 h-1 w-0 bg-gradient-to-r from-orange-600 via-white to-green-600 transition-all ease-in-out duration-500 group-hover:w-full"></span> 
             </span> 
             </figcaption>
-            <blockquote className='text-white font-medium text-[0.96rem] leading-[1.4rem] select-all selection:text-fuchsia-300'>&quot;We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!&quot;</blockquote>
           </figure>
+            <blockquote className='text-white font-medium text-[0.96rem] leading-[1.4rem] select-all selection:text-fuchsia-300 transition duration-300 ease-in-out hover:scale-110 pt-4'>&quot;We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!&quot;</blockquote>
         </li>
       </ul>
       <ul className='justify-start items-start pl-5 lg:pl-2 pr-5 lg:pt-[1.29rem] lg:pr-4 
@@ -42,9 +42,9 @@ const Testimonials = () => {
             to-green-600 transition-all ease-in-out duration-500 group-hover:w-full"></span>
             </span> 
             </figcaption>
-            <blockquote className='text-white font-medium text-[0.96rem] leading-[1.4rem] select-all 
-           selection:text-fuchsia-300'>&quot;Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!&quot;</blockquote>
           </figure>
+            <blockquote className='text-white font-medium text-[0.96rem] leading-[1.4rem] select-all 
+           selection:text-fuchsia-300 pt-4 transition duration-300 ease-in-out hover:scale-110'>&quot;Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!&quot;</blockquote>
         </li>
       </ul>
 
@@ -65,8 +65,8 @@ const Testimonials = () => {
             to-green-600 transition-all ease-in-out duration-500 group-hover:w-full"></span>
             </span> 
             </figcaption>
-            <blockquote className='text-white font-medium text-[0.96rem] leading-[1.4rem] select-all selection:text-fuchsia-300'>&quot;Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery.&quot;</blockquote>
           </figure>
+            <blockquote className='text-white font-medium text-[0.96rem] leading-[1.4rem] select-all selection:text-fuchsia-300 pt-4 transition duration-300 ease-in-out hover:scale-110'>&quot;Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery.&quot;</blockquote>
         </li>
       </ul>
     </>
