@@ -32,7 +32,7 @@ export default function Home() {
           loading='eager'
         />
         <div className='z-10'>
-        <motion.section className="grid grid-cols-1 lg:grid-cols-2 lg:max-w-[74rem]" variants={textVariants} initial="initial"
+        <motion.div className="grid grid-cols-1 lg:grid-cols-2 lg:max-w-[74rem]" variants={textVariants} initial="initial"
         animate="animate">
           <article className='justify-center items-center pt-16 lg:pt-3 lg:pl-6 p-5 lg:p-0'>
           <h2 className='text-4xl lg:text-5xl text-primary-very-dark-magenta font-sans font-bold text-center lg:text-left lg:max-w-[25.8rem]'>10,000+ of our users love our products.
@@ -44,7 +44,7 @@ export default function Home() {
           </p>
           </article>
           <Ratings />
-          </motion.section>
+          </motion.div>
           <motion.div className='grid grid-cols-1 lg:grid-cols-3 pt-12 lg:pt-[3.6rem] lg:pl-6 lg:pr-[0.7rem] lg:max-w-[74rem] pb-8 lg:pb-0' variants={textVariants} initial="initial"
         animate="animate">
           <Testimonials />
