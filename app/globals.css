@@ -3,9 +3,8 @@
 @tailwind utilities;
 
 html {
-  --font-karla: 'Karla', sans-serif;
-  font-family: var(--font-karla);
-  /* font-family: var(--font-spartan); */
+  --font-spartan: 'League Spartan', sans-serif;
+  font-family: var(--font-spartan);
 }
   
   

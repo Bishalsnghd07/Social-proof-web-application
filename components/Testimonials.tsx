@@ -15,7 +15,7 @@ const Testimonials = () => {
             />
             <figcaption className='flex flex-col text-base leading-[1.4rem]'>
             <strong className='text-white font-semibold'>Colton Smith</strong> 
-            <span className=' text-primary-soft-pink'>Verified Buyer</span> 
+            <span className=' text-pink-400'>Verified Buyer</span> 
             </figcaption>
             <blockquote className='text-white font-medium text-[0.96rem] leading-[1.4rem]'>&quot;We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!&quot;</blockquote>
           </figure>
@@ -33,7 +33,7 @@ const Testimonials = () => {
             />
             <figcaption className='flex flex-col text-base leading-[1.4rem]'>
             <strong className='text-white font-semibold'>Anne Wallace</strong> 
-            <span className=' text-primary-soft-pink'>Verified Buyer</span> 
+            <span className='text-pink-400'>Verified Buyer</span> 
             </figcaption>
             <blockquote className='text-white font-medium text-[0.96rem] leading-[1.4rem]'>&quot;Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!&quot;</blockquote>
           </figure>
@@ -52,7 +52,7 @@ const Testimonials = () => {
             />
             <figcaption className='flex flex-col text-base leading-[1.4rem]'>
             <strong className='text-white font-semibold text-base'>Irene Roberts</strong> 
-            <span className=' text-primary-soft-pink text-base'>Verified Buyer</span> 
+            <span className='text-pink-400 text-base'>Verified Buyer</span> 
             </figcaption>
             <blockquote className='text-white font-medium text-[0.96rem] leading-[1.4rem]'>&quot;Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery.&quot;</blockquote>
           </figure>

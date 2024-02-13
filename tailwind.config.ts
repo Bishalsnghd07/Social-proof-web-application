@@ -8,8 +8,7 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      // 'league': ['League Spartan', 'sans-serif']
-      'karla' : ['Karla', 'sans-serif']
+      'league': ['League Spartan', 'sans-serif']
     },
     extend: {
       colors: {
