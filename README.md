@@ -17,6 +17,10 @@ Users should be able to:
 - See, **hover effect** in ratings and testimonials component. Just see it's looking amazing❤️
 - Used **slow entrance animation** when page loaded🔥 and added **underline effect** also in testimonials heading 2.
 
+## Screenshot
+
+![Design preview for the Social proof section coding challenge](/public/assets/desktop-preview.jpg)
+
 ## Links
 - Solution URL: https://github.com/Bishalsnghd07/Social-proof-web-application
 - Live URL: https://my-app-gamma-orcin.vercel.app/
