@@ -1,22 +1,25 @@
 # Frontend Mentor - Social proof section
 
-![Design preview for the Social proof section coding challenge](/public/assets/desktop-preview.jpg)
+This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA).
 
-## Welcome! 👋
+
+## Overview 👋
 
 Thanks for checking out this front-end coding challenge.
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges help me to improve my coding skills by building realistic projects. Still, I'm learning and want to deep dive into responsive web application
 
 ## The challenge
 
 My challenge is to build out this social proof section and get it looking as close to the design as possible.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-Your users should be able to:
-
+Users should be able to:
 - View the optimal layout for the section depending on their device's screen size
+- See, hover effect in ratings and testimonials component. Just see it's looking amazing❤️
+- Used slow entrance animation when page loaded🔥 and added underline effect also in testimonials heading 2.
+
+## Links
+- Solution URL: https://github.com/Bishalsnghd07/Social-proof-web-application
+- Live URL: https://my-app-gamma-orcin.vercel.app/
 
 Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
@@ -42,16 +45,6 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
 5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
 6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
-
-## Deploying your project
-
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
 
 ## Create a custom `README.md`
 
