@@ -19,7 +19,7 @@ Users should be able to:
 
 ## Screenshot
 
-![Design preview for the Social proof section coding challenge](/public/assets/Screenshot (730).png)
+![Design preview for the Social proof section coding challenge](/public/assets/screenshot-730.png)
 
 ## Links
 - Solution URL: https://github.com/Bishalsnghd07/Social-proof-web-application
