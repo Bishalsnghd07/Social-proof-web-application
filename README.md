@@ -47,4 +47,4 @@ Users should be able to:
 # 👨‍💻Author
 
 - Website - [Social proof section web page](https://my-app-gamma-orcin.vercel.app/)
-- Frontend Mentor - [@Bishalsnghd07](https://my-app-gamma-orcin.vercel.app/)
+- Frontend Mentor - [@Bishalsnghd07](https://www.frontendmentor.io/profile/Bishalsnghd07)
