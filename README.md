@@ -50,5 +50,6 @@ Users should be able to:
 
 # 👨‍💻Author
 
+- My Youtube Channel - [FrontendFineness](https://www.youtube.com/@frontendfineness985/videos)
 - Website - [Social proof section web page](https://my-app-gamma-orcin.vercel.app/)
 - Frontend Mentor - [@Bishalsnghd07](https://www.frontendmentor.io/profile/Bishalsnghd07)
