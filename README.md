@@ -48,6 +48,10 @@ Users should be able to:
 - **TSX**📜
 - **Framer-motion**🎭
 
+## Code Quality
+
+![](https://img.shields.io/badge/eslint-fff?style=for-the-badge&logo=eslint&logoColor=fff&color=4930bd) ![](https://img.shields.io/badge/prettier-fff?style=for-the-badge&logo=prettier&logoColor=000&color=f3ae42)
+
 # 👨‍💻Author
 
 - My Youtube Channel - [FrontendFineness](https://www.youtube.com/@frontendfineness985/videos)
